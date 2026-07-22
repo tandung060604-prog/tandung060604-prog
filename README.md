@@ -40,15 +40,15 @@ My goal is to grow from an AI Application Developer into an **AI/Robotics Engine
 
 ## Technical toolkit
 
-<img src="assets/toolkit-cards/toolkit-ai-llm.png" alt="AI and LLM skills: Python, RAG, LLM applications, prompt engineering, AI agents, embeddings, vector databases, and Ragas" width="100%" />
+<img src="assets/toolkit-cards/toolkit-ai-llm-hover.gif" alt="Animated AI and LLM skill card: Python, RAG, LLM applications, prompt engineering, AI agents, embeddings, vector databases, and Ragas" width="100%" />
 
-<img src="assets/toolkit-cards/toolkit-backend-data.png" alt="Backend and data skills: FastAPI, REST APIs, PostgreSQL, Pydantic, SQLAlchemy, and Python virtual environments" width="100%" />
+<img src="assets/toolkit-cards/toolkit-backend-data-hover.gif" alt="Animated backend and data skill card: FastAPI, REST APIs, PostgreSQL, Pydantic, SQLAlchemy, and Python virtual environments" width="100%" />
 
-<img src="assets/toolkit-cards/toolkit-frontend.png" alt="Frontend skills: React, Vite, Next.js, TypeScript, JavaScript, HTML, and CSS" width="100%" />
+<img src="assets/toolkit-cards/toolkit-frontend-hover.gif" alt="Animated frontend skill card: React, Vite, Next.js, TypeScript, JavaScript, HTML, and CSS" width="100%" />
 
-<img src="assets/toolkit-cards/toolkit-tools-quality.png" alt="Tools, quality and deployment skills: Git, GitHub, Docker, Railway, Postman, VS Code, Codex, pytest, Camunda 7, and BPMN" width="100%" />
+<img src="assets/toolkit-cards/toolkit-tools-quality-hover.gif" alt="Animated tools, quality and deployment skill card: Git, GitHub, Docker, Railway, Postman, VS Code, Codex, pytest, Camunda 7, and BPMN" width="100%" />
 
-<img src="assets/toolkit-cards/toolkit-robotics.png" alt="Robotics skills: OpenCV, PyTorch, YOLOv8, DeepSORT, ESP32-CAM, Arduino, ROS and Gazebo, MATLAB, PID and LQR" width="100%" />
+<img src="assets/toolkit-cards/toolkit-robotics-hover.gif" alt="Animated robotics skill card: OpenCV, PyTorch, YOLOv8, DeepSORT, ESP32-CAM, Arduino, ROS and Gazebo, MATLAB, PID and LQR" width="100%" />
 
 ## Featured project
 
