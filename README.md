@@ -40,25 +40,15 @@ My goal is to grow from an AI Application Developer into an **AI/Robotics Engine
 
 ## Technical toolkit
 
-### AI & LLM
+<img src="assets/toolkit-cards/toolkit-ai-llm.png" alt="AI and LLM skills: Python, RAG, LLM applications, prompt engineering, AI agents, embeddings, vector databases, and Ragas" width="100%" />
 
-`Python` · `RAG` · `LLM Applications` · `Prompt Engineering` · `AI Agents` · `Embeddings` · `Vector Databases` · `Ragas`
+<img src="assets/toolkit-cards/toolkit-backend-data.png" alt="Backend and data skills: FastAPI, REST APIs, PostgreSQL, Pydantic, SQLAlchemy, and Python virtual environments" width="100%" />
 
-### Backend & data
+<img src="assets/toolkit-cards/toolkit-frontend.png" alt="Frontend skills: React, Vite, Next.js, TypeScript, JavaScript, HTML, and CSS" width="100%" />
 
-`FastAPI` · `REST APIs` · `PostgreSQL` · `Pydantic` · `SQLAlchemy` · `Python virtual environments`
+<img src="assets/toolkit-cards/toolkit-tools-quality.png" alt="Tools, quality and deployment skills: Git, GitHub, Docker, Railway, Postman, VS Code, Codex, pytest, Camunda 7, and BPMN" width="100%" />
 
-### Frontend
-
-`React` · `Vite` · `Next.js` · `TypeScript` · `JavaScript` · `HTML` · `CSS`
-
-### Tools, quality & deployment
-
-`Git` · `GitHub` · `Docker` · `Railway` · `Postman` · `VS Code` · `Codex` · `pytest` · `Camunda 7` · `BPMN`
-
-### Robotics — evidenced in public repositories
-
-`OpenCV` · `PyTorch` · `YOLOv8` · `DeepSORT` · `ESP32 / ESP32-CAM` · `Arduino` · `ROS / Gazebo` · `MATLAB / Simulink` · `PID / LQR control`
+<img src="assets/toolkit-cards/toolkit-robotics.png" alt="Robotics skills: OpenCV, PyTorch, YOLOv8, DeepSORT, ESP32-CAM, Arduino, ROS and Gazebo, MATLAB, PID and LQR" width="100%" />
 
 ## Featured project
 
