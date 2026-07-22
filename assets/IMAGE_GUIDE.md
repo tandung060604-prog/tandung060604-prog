@@ -1,6 +1,6 @@
 # Image Replacement Guide
 
-The profile uses verified public project visuals copied from the owner's HaUI Admission Chatbot and Human-Following Robot repositories. They are project evidence, not stock imagery or fabricated product screenshots.
+No approved personal photo or real project screenshot was present in the workspace during the redesign. The repository therefore contains an abstract avatar placeholder and a clearly diagrammatic project architecture visual—no stock person or fabricated product screenshot.
 
 ## Profile image
 

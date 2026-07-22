@@ -13,11 +13,11 @@
 
 ## About me
 
-I'm **Tấn Dũng (Haru)**, a recent **Robotics and Artificial Intelligence** graduate building practical, testable AI products.
+I'm **Tấn Dũng (Haru)**, a recent **Robotics and Artificial Intelligence** graduate focused on turning AI concepts into practical, testable products.
 
-I focus on **RAG, LLM applications, AI agents, and robotics**—with attention to traceable sources, evaluation, and safe behavior when evidence is insufficient. My goal is to grow into an **AI/Robotics Engineer** connecting reliable AI software with real-world automation.
+I am currently learning and building with **retrieval-augmented generation (RAG), LLM applications, AI agents, and robotics**. I care about traceable data sources, citations, evaluation, and refusal behavior when the available evidence is insufficient—especially for systems where an unsupported answer would be worse than no answer.
 
-**Selected stack:** `Ragas` · `FastAPI` · `Railway` · `Postman` · `Camunda 7` · `Codex` · `ESP32`
+My goal is to grow from an AI Application Developer into an **AI/Robotics Engineer** who can connect reliable AI software with real-world automation and robotic systems.
 
 ## What I'm working on
 
@@ -60,10 +60,6 @@ An admissions assistant for Hanoi University of Industry that helps applicants a
 
 <img src="assets/project-images/haui-admission-ai-architecture.svg" alt="Architecture diagram for HaUI Admission AI showing official sources, RAG retrieval, FastAPI, PostgreSQL, React, citations, and human handoff" width="100%" />
 
-<img src="assets/project-images/real/haui-evaluation-1.png" alt="HaUI Admission AI interface showing a grounded admissions answer and cited source panel" width="100%" />
-
-<sub>Product evidence: the chatbot UI returns an admissions answer alongside its cited sources.</sub>
-
 **Core architecture**
 
 - React/Vite frontend with a FastAPI backend and PostgreSQL persistence.
@@ -93,10 +89,6 @@ A local-first learning application for Camunda 7 and BPMN with structured lesson
 ### [Human-Following Mobile Robot](https://github.com/tandung060604-prog/Human-Following-Robot) — Prototype
 
 An individual robotics project that detects and tracks a person, then sends navigation commands to an ESP32-CAM mobile robot over Wi-Fi.
-
-<img src="assets/project-images/real/human-following-robot.jpg" alt="Hardware wiring schematic for the Human-Following Mobile Robot using ESP32-CAM, motor driver, battery pack, and two motors" width="100%" />
-
-<sub>Hardware overview: ESP32-CAM, motor driver, battery pack, and dual motor control.</sub>
 
 **Stack:** Python · YOLOv8 · DeepSORT · OpenCV · ESP32-CAM · Arduino/C++ · ROS · Gazebo
 
@@ -129,7 +121,7 @@ Public English and Vietnamese CVs are available below.
 
 ## Let's connect
 
-I'm open to internships, fresher opportunities, research collaboration, and practical AI/robotics projects. The quickest way to reach me is by email; both CV versions are linked above.
+I'm open to internships, fresher opportunities, research collaboration, and practical AI/robotics projects.
 
 - **Email:** [tandung060604@gmail.com](mailto:tandung060604@gmail.com)
 - **Instagram:** [@_saxichuongduong_](https://www.instagram.com/_saxichuongduong_/)
