@@ -1,8 +1,9 @@
 """Render clean, readable horizontal toolkit cards for the GitHub profile README."""
 
+from math import sin, pi
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageColor, ImageDraw, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -57,7 +58,7 @@ def tag_width(draw: ImageDraw.ImageDraw, value: str, tag_font: ImageFont.FreeTyp
     return int(draw.textbbox((0, 0), value, font=tag_font)[2]) + 34
 
 
-def render_base(title: str, subtitle: str, tags: tuple[str, ...], accent: str) -> tuple[Image.Image, list[tuple[int, int, int, int, str]]]:
+def render_base(title: str, subtitle: str, tags: tuple[str, ...], accent: str) -> Image.Image:
     image = Image.new("RGB", (W, H), "#07111f")
     draw = ImageDraw.Draw(image)
     draw.rounded_rectangle((1, 1, W - 2, H - 2), radius=22, outline="#1e506c", width=2)
@@ -67,36 +68,37 @@ def render_base(title: str, subtitle: str, tags: tuple[str, ...], accent: str) -
 
     tag_font = font(16)
     x, y = 32, 111
-    tag_boxes = []
     for tag in tags:
         width = tag_width(draw, tag, tag_font)
         if x + width > W - 32:
             x, y = 32, y + 42
         draw.rounded_rectangle((x, y, x + width, y + 30), radius=15, fill="#0d2235", outline="#1d4f69", width=1)
         draw.text((x + 17, y + 6), tag, font=tag_font, fill="#dbeafe")
-        tag_boxes.append((x, y, x + width, y + 30, tag))
         x += width + 10
 
-    return image, tag_boxes
+    return image
 
 
 def render(filename: str, title: str, subtitle: str, tags: tuple[str, ...], accent: str) -> None:
-    base, tag_boxes = render_base(title, subtitle, tags, accent)
-    tag_font = font(16)
-    frames = [base.copy()]
-    for left, top, right, bottom, tag in tag_boxes:
-        frame = base.copy()
-        draw = ImageDraw.Draw(frame)
-        draw.rounded_rectangle((left - 1, top - 1, right + 1, bottom + 1), radius=16, fill="#dbeafe")
-        draw.rounded_rectangle((left, top, right, bottom), radius=15, fill=accent)
-        draw.text((left + 17, top + 6), tag, font=tag_font, fill="#07111f")
-        frames.extend((frame, frame.copy()))
+    base = render_base(title, subtitle, tags, accent)
+    frames = []
+    for step in range(18):
+        frame = base.copy().convert("RGBA")
+        overlay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        glow = ImageDraw.Draw(overlay)
+        pulse = int(35 + 28 * (sin(2 * pi * step / 18) + 1) / 2)
+        glow.rounded_rectangle((3, 3, W - 4, H - 4), radius=20, outline=accent, width=2)
+        sweep_x = -150 + int((W + 300) * step / 17)
+        glow.rectangle((sweep_x, 4, sweep_x + 90, H - 4), fill=(*ImageColor.getrgb(accent), pulse))
+        glow.ellipse((W - 46, 26, W - 30, 42), fill=(*ImageColor.getrgb(accent), 180))
+        frame = Image.alpha_composite(frame, overlay).convert("RGB")
+        frames.append(frame)
 
     frames[0].save(
         OUT / filename,
         save_all=True,
         append_images=frames[1:],
-        duration=220,
+        duration=125,
         loop=0,
         optimize=True,
         disposal=2,
