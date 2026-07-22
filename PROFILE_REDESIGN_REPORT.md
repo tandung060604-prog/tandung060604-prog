@@ -18,7 +18,9 @@ The starting workspace contained no profile repository, README, assets, resume f
 - `assets/profile-avatar-placeholder.svg` — abstract 512 × 512 non-photo placeholder.
 - `assets/DESIGN_SYSTEM.md` — palette, typography, components, and responsive rules.
 - `assets/IMAGE_GUIDE.md` — safe photo/screenshot replacement guidance.
-- `resume/README.md` — exact CV filenames and publishing checklist.
+- `resume/README.md` — public CV inventory and publishing guidance.
+- `resume/Nguyen-Bui-Tan-Dung-CV-EN.pdf` — English CV supplied by the profile owner.
+- `resume/Nguyen-Bui-Tan-Dung-CV-VI.pdf` — Vietnamese CV supplied by the profile owner.
 - `GITHUB_PROFILE_UPDATE_COMMANDS.md` — safe, unexecuted metadata update proposal.
 - `PROFILE_REDESIGN_REPORT.md` — this implementation and handoff report.
 - `.gitignore` — blocks common local secret/environment files and OS clutter.
@@ -36,8 +38,8 @@ None. The deliverable was created in a new directory because the workspace did n
 5. Featured HaUI Admission AI case study with architecture, differentiators, demo, and repository.
 6. Four selected projects with one-sentence descriptions, stacks, links, and honest status labels.
 7. Native links to GitHub repositories and public activity without vanity metrics.
-8. Pending English/Vietnamese CV calls to action and setup guide.
-9. Contact section with visible placeholders and a short opportunity CTA.
+8. Direct English/Vietnamese CV actions.
+9. Confirmed email, Instagram, Discord, location, and GitHub contact section.
 10. Minimal personal footer.
 
 ## Repository audit and project selection
@@ -46,9 +48,9 @@ The public account exposed **35 repositories** during the audit. Forked course m
 
 Selected projects:
 
-- **HaUi-Admission-Chatbot** — featured because its README documents a RAG admissions system, citations, year filtering, handoff, an admin/advisor dashboard, FastAPI, PostgreSQL, and Docker setup.
+- **HaUi-Admission-Chatbot** — featured because its README documents a RAG admissions system, citations, year filtering, handoff, an admin/advisor dashboard, FastAPI, PostgreSQL, and Docker setup. Status confirmed as Completed.
 - **Camunda-Quest-Academy** — selected for its unusually complete product scope, modular FastAPI architecture, content validation, test/quality tooling, and practical BPMN/Camunda focus.
-- **Human-Following-Robot** — selected as the strongest cross-disciplinary perception/embedded robotics project; described as a group project and labeled Prototype.
+- **Human-Following-Robot** — selected as the strongest cross-disciplinary perception/embedded robotics project; confirmed as an individual project and labeled Prototype.
 - **Esp32-self-balancing-robot** — selected for control-system depth spanning PID, LQR, Kalman filtering, ESP32 firmware, and MATLAB/Simulink; labeled Prototype.
 - **NexaRead-AI** — selected for its documented full-stack architecture and engineering quality; labeled In Progress, with OCR/RAG/LLM work explicitly described as planned rather than complete.
 
@@ -62,36 +64,30 @@ The **Robot-Vision-System** repository was reviewed but not listed to keep the p
 - The demo returned a page titled “Tư vấn tuyển sinh” during the audit. The README includes a dated availability note and does not claim production uptime.
 - Both tested GitHub statistics-card endpoints returned HTTP 503 during final validation. They were removed and replaced with native GitHub activity/repository links, leaving no broken statistics image dependency.
 
-## Placeholders still requiring input
+## Confirmed profile information
 
-- `<EMAIL>`
-- `<INSTAGRAM_URL>`
-- `<DISCORD_USERNAME>`
-- `<LINKEDIN_URL>`
-- `<PORTFOLIO_URL>`
-- `<ENGLISH_CV_PATH_OR_URL>`
-- `<VIETNAMESE_CV_PATH_OR_URL>`
-- `<LOCATION>`
-- `<HAUI_DEMO_VIDEO_URL>`
+- Email: `tandung060604@gmail.com`
+- Instagram: `@_saxichuongduong_`
+- Discord: `.harunguyen`
+- Location: `Ha Noi, Vietnam`
+- HaUI Admission AI: Completed
+- Human-Following Mobile Robot: individual project
+- Confirmed tools: Ragas, Railway, Postman, Codex, and Camunda
+- Introduction: “Recent Robotics and Artificial Intelligence Graduate”
 
-The HaUI repository placeholder from the original brief was replaced with the verified public repository URL discovered during the audit.
+LinkedIn, portfolio website, and a HaUI demo-video URL were not provided, so they are intentionally omitted from the public README.
+
+The supplied CV PDFs still label HaUI Admission AI as `Jun 2026 – Present`. The profile README uses **Completed** based on the owner's confirmation; update the CV PDFs before publishing if they must show the same final status.
 
 ## Content requiring confirmation
 
-- Confirm that “recent Robotics and Artificial Intelligence graduate” is the preferred English education/status wording.
-- Confirm that every listed technology reflects hands-on experience at the level intended for recruiter review.
-- Confirm project ownership and preferred team attribution, particularly Human-Following Mobile Robot.
-- Confirm whether `Ragas`, `Railway`, `Postman`, and `Codex` should remain in the public toolkit.
-- Confirm the preferred public location before replacing `<LOCATION>`.
-- Confirm whether HaUI Admission AI should be labeled In Progress, Prototype, or Completed.
+- Optional: provide a public LinkedIn URL, portfolio URL, or HaUI demo-video URL when available.
 
 ## Missing assets
 
 - Approved 512 × 512 personal avatar/photo.
 - Approved 1280 × 720 product screenshot for HaUI Admission AI, if desired.
-- English CV PDF.
-- Vietnamese CV PDF.
-- HaUI demo video URL.
+- HaUI demo video URL, if one is intended for public release.
 
 No fake PDF, random portrait, or fabricated product screenshot was created.
 
@@ -102,6 +98,7 @@ No fake PDF, random portrait, or fabricated product screenshot was created.
 - Public repository READMEs were used as the evidence boundary for technology and project claims.
 - Forks and weak lab repositories were excluded from featured work.
 - The metadata command file contains no token and keeps unknown values as explicit placeholders.
+- The supplied public CVs include a phone number with the profile owner's explicit approval.
 - GitHub account metadata was not changed because CLI authentication was invalid and placeholders remain.
 
 ## Preview instructions
@@ -129,7 +126,7 @@ No fake PDF, random portrait, or fabricated product screenshot was created.
 
 The target GitHub profile repository must be named exactly `tandung060604-prog`.
 
-After authenticating the correct GitHub account and resolving placeholders:
+After authenticating the correct GitHub account:
 
 ```powershell
 gh auth login -h github.com
@@ -145,7 +142,7 @@ git remote add origin https://github.com/tandung060604-prog/tandung060604-prog.g
 git push -u origin main
 ```
 
-Do not push until CV/public-contact choices and account identity are confirmed.
+Do not push until the account identity is confirmed.
 
 ## Git status
 

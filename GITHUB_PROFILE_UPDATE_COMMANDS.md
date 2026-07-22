@@ -1,6 +1,6 @@
 # Proposed GitHub Profile Metadata Update
 
-These commands were **not executed**. GitHub CLI authentication was invalid during the audit, and location/website values still require confirmation.
+These commands were **not executed**. GitHub CLI authentication was invalid during the audit. The location is confirmed; no public portfolio URL has been provided.
 
 ## 1. Authenticate and verify the target account
 
@@ -17,18 +17,18 @@ Continue only if `login` is exactly `tandung060604-prog`.
 ```powershell
 gh api --method PATCH user `
   -f name='Nguyễn Bùi Tấn Dũng' `
-  -f bio='Robotics & AI Graduate | Building RAG, LLM and practical AI applications'
+  -f bio='Robotics & AI Graduate | Building RAG, LLM and practical AI applications' `
+  -f location='Ha Noi, Vietnam'
 ```
 
 No company value is included because no verified company was provided.
 
-## 3. Add optional fields only after replacing placeholders
+## 3. Add optional website/social fields only after confirmation
 
-Do not run the following example until both placeholders contain real, public values:
+No public portfolio or LinkedIn URL has been provided, so neither should be added to account metadata yet.
 
 ```powershell
 gh api --method PATCH user `
-  -f location='<LOCATION>' `
   -f blog='<PORTFOLIO_URL>'
 ```
 

@@ -56,6 +56,8 @@ My goal is to grow from an AI Application Developer into an **AI/Robotics Engine
 
 An admissions assistant for Hanoi University of Industry that helps applicants and parents find information about admission methods, programs, benchmark scores, tuition, scholarships, application documents, and frequently asked questions.
 
+**Status:** Completed
+
 <img src="assets/project-images/haui-admission-ai-architecture.svg" alt="Architecture diagram for HaUI Admission AI showing official sources, RAG retrieval, FastAPI, PostgreSQL, React, citations, and human handoff" width="100%" />
 
 **Core architecture**
@@ -72,7 +74,7 @@ An admissions assistant for Hanoi University of Industry that helps applicants a
 - Escalates questions that need deeper guidance to a human advisor.
 - Keeps admissions content manageable through an advisor/admin dashboard.
 
-**Links:** [Live demo](https://c2-app-028.up.railway.app) · [Source repository](https://github.com/tandung060604-prog/HaUi-Admission-Chatbot) · Demo video: `<HAUI_DEMO_VIDEO_URL>`
+**Links:** [Live demo](https://c2-app-028.up.railway.app) · [Source repository](https://github.com/tandung060604-prog/HaUi-Admission-Chatbot)
 
 > The demo endpoint returned the admissions interface during the July 22, 2026 audit. Availability may vary; this is not an uptime guarantee.
 
@@ -86,7 +88,7 @@ A local-first learning application for Camunda 7 and BPMN with structured lesson
 
 ### [Human-Following Mobile Robot](https://github.com/tandung060604-prog/Human-Following-Robot) — Prototype
 
-A group robotics project that detects and tracks a person, then sends navigation commands to an ESP32-CAM mobile robot over Wi-Fi.
+An individual robotics project that detects and tracks a person, then sends navigation commands to an ESP32-CAM mobile robot over Wi-Fi.
 
 **Stack:** Python · YOLOv8 · DeepSORT · OpenCV · ESP32-CAM · Arduino/C++ · ROS · Gazebo
 
@@ -110,26 +112,21 @@ Explore my [public repositories](https://github.com/tandung060604-prog?tab=repos
 
 ## Resume / CV
 
-The CV files have not been provided yet. The buttons below lead to the setup guide rather than to placeholder PDFs.
+Public English and Vietnamese CVs are available below.
 
 <p>
-  <a href="resume/README.md"><img src="https://img.shields.io/badge/View_English_CV-Pending_file-0B1220?style=for-the-badge&logo=readme&logoColor=38BDF8" alt="English CV is pending" /></a>
-  <a href="resume/README.md"><img src="https://img.shields.io/badge/View_Vietnamese_CV-Pending_file-0B1220?style=for-the-badge&logo=readme&logoColor=A78BFA" alt="Vietnamese CV is pending" /></a>
+  <a href="resume/Nguyen-Bui-Tan-Dung-CV-EN.pdf"><img src="https://img.shields.io/badge/View_English_CV-Open-0B1220?style=for-the-badge&logo=readme&logoColor=38BDF8" alt="View Nguyễn Bùi Tấn Dũng's English CV" /></a>
+  <a href="resume/Nguyen-Bui-Tan-Dung-CV-VI.pdf"><img src="https://img.shields.io/badge/View_Vietnamese_CV-Open-0B1220?style=for-the-badge&logo=readme&logoColor=A78BFA" alt="View Nguyễn Bùi Tấn Dũng's Vietnamese CV" /></a>
 </p>
-
-- English CV: `<ENGLISH_CV_PATH_OR_URL>`
-- Vietnamese CV: `<VIETNAMESE_CV_PATH_OR_URL>`
 
 ## Let's connect
 
 I'm open to internships, fresher opportunities, research collaboration, and practical AI/robotics projects.
 
-- **Email:** `<EMAIL>`
-- **LinkedIn:** `<LINKEDIN_URL>`
-- **Portfolio:** `<PORTFOLIO_URL>`
-- **Instagram:** `<INSTAGRAM_URL>`
-- **Discord:** `<DISCORD_USERNAME>`
-- **Location:** `<LOCATION>`
+- **Email:** [tandung060604@gmail.com](mailto:tandung060604@gmail.com)
+- **Instagram:** [@_saxichuongduong_](https://www.instagram.com/_saxichuongduong_/)
+- **Discord:** `.harunguyen`
+- **Location:** Ha Noi, Vietnam
 - **GitHub:** [github.com/tandung060604-prog](https://github.com/tandung060604-prog)
 
 <p align="center"><sub>Building useful AI systems, one experiment at a time.</sub></p>
