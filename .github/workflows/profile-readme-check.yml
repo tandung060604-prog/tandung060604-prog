@@ -1,0 +1,31 @@
+name: Profile README checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README image paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r asset; do
+            test -f "$asset" || { echo "Missing README asset: $asset"; exit 1; }
+          done < <(grep -oE 'assets/[A-Za-z0-9_./-]+\.(svg|png|jpg|gif)' README.md | sort -u)
+      - name: Check for likely credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE --exclude-dir=.git --exclude='*.gif' --exclude='*.pdf' '(ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{20,}|sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16})' .; then
+            echo "Potential credential found. Remove it before publishing."
+            exit 1
+          fi

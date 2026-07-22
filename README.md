@@ -11,6 +11,10 @@
   <img src="https://img.shields.io/badge/Seeking-Internship_%2F_Fresher-0B1220?style=flat-square&logo=target&logoColor=38BDF8" alt="Seeking AI and robotics internship or fresher opportunities" />
 </p>
 
+<p align="center">
+  <img src="assets/now-status.gif" alt="Animated current focus: building grounded RAG systems, learning Camunda 7 workflows, and integrating AI with robotics" width="560" />
+</p>
+
 ## About me
 
 I'm **Tấn Dũng (Haru)**, a recent **Robotics and Artificial Intelligence** graduate focused on turning AI concepts into practical, testable products.
@@ -18,6 +22,12 @@ I'm **Tấn Dũng (Haru)**, a recent **Robotics and Artificial Intelligence** gr
 I am currently learning and building with **retrieval-augmented generation (RAG), LLM applications, AI agents, and robotics**. I care about traceable data sources, citations, evaluation, and refusal behavior when the available evidence is insufficient—especially for systems where an unsupported answer would be worse than no answer.
 
 My goal is to grow from an AI Application Developer into an **AI/Robotics Engineer** who can connect reliable AI software with real-world automation and robotic systems.
+
+## Now
+
+- Improving RAG applications with citations, evaluation, and grounded answers.
+- Learning practical BPMN and Camunda 7 workflow automation.
+- Exploring how AI services connect with embedded and mobile robotics.
 
 ## What I'm working on
 
@@ -123,10 +133,13 @@ Public English and Vietnamese CVs are available below.
 
 I'm open to internships, fresher opportunities, research collaboration, and practical AI/robotics projects.
 
-- **Email:** [tandung060604@gmail.com](mailto:tandung060604@gmail.com)
-- **Instagram:** [@_saxichuongduong_](https://www.instagram.com/_saxichuongduong_/)
-- **Discord:** `.harunguyen`
-- **Location:** Ha Noi, Vietnam
-- **GitHub:** [github.com/tandung060604-prog](https://github.com/tandung060604-prog)
+<p>
+  <a href="mailto:tandung060604@gmail.com"><img src="https://img.shields.io/badge/Email-tandung060604%40gmail.com-0B1220?style=flat-square&logo=gmail&logoColor=22D3EE" alt="Email Tấn Dũng" /></a>
+  <a href="https://www.instagram.com/_saxichuongduong_/"><img src="https://img.shields.io/badge/Instagram-%40_saxichuongduong_-0B1220?style=flat-square&logo=instagram&logoColor=A78BFA" alt="Instagram Tấn Dũng" /></a>
+  <img src="https://img.shields.io/badge/Discord-.harunguyen-0B1220?style=flat-square&logo=discord&logoColor=7289DA" alt="Discord .harunguyen" />
+  <a href="https://github.com/tandung060604-prog"><img src="https://img.shields.io/badge/GitHub-tandung060604--prog-0B1220?style=flat-square&logo=github&logoColor=22D3EE" alt="GitHub Tấn Dũng" /></a>
+</p>
+
+<sub>Ha Noi, Vietnam</sub>
 
 <p align="center"><sub>Building useful AI systems, one experiment at a time.</sub></p>
