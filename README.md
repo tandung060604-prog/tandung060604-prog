@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/github-profile-banner-mobile.svg" />
-    <img src="assets/github-profile-banner.svg" alt="Nguyễn Bùi Tấn Dũng — Robotics and AI graduate building practical AI systems" width="100%" />
+    <img src="assets/github-profile-banner-animated.gif" alt="Animated banner: Nguyễn Bùi Tấn Dũng, Robotics and AI graduate building practical AI systems" width="100%" />
   </picture>
 </p>
 
