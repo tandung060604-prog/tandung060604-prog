@@ -92,6 +92,14 @@ An individual robotics project that detects and tracks a person, then sends navi
 
 **Stack:** Python · YOLOv8 · DeepSORT · OpenCV · ESP32-CAM · Arduino/C++ · ROS · Gazebo
 
+### [Robot Vision System](https://github.com/tandung060604-prog/Robot-Vision-System) — Graduation Project
+
+A real-time visual-perception system for a mobile robot. It runs an optimized TensorFlow Lite model over a camera stream and reports detected objects, locations, confidence, and live FPS for edge-ready robot deployment.
+
+**Stack:** Python · TensorFlow Lite · OpenCV · int8 quantization · real-time object detection
+
+**Links:** [Product demo on YouTube](https://www.youtube.com/watch?v=_r1kk5_Yni0) · [Source repository](https://github.com/tandung060604-prog/Robot-Vision-System)
+
 ### [ESP32 Self-Balancing Robot](https://github.com/tandung060604-prog/Esp32-self-balancing-robot) — Prototype
 
 A two-wheeled robot exploring PID and LQR control, MPU6050 sensor fusion with a Kalman filter, and browser-based control over Wi-Fi.
