@@ -106,13 +106,15 @@ A two-wheeled robot exploring PID and LQR control, MPU6050 sensor fusion with a 
 
 **Stack:** ESP32 · Arduino/C++ · PID · LQR · Kalman filter · WebSocket · MATLAB/Simulink
 
-### [NexaRead AI](https://github.com/tandung060604-prog/NexaRead-AI) — In Progress
+### [NexaRead AI](https://github.com/tandung060604-prog/NexaRead-AI) — Milestones 7–8 Implemented Locally
 
-A source-aware document reading foundation with asynchronous PDF processing, structured navigation, annotations, and technical-term assistance.
+An AI-powered reading and knowledge assistant that turns PDF, DOCX, EPUB, and public article URLs into searchable, source-grounded insights. It combines a responsive reader, structured document processing, and evidence-aware document chat with validated citations.
 
-**Stack:** Next.js · React · TypeScript · FastAPI · PostgreSQL · Redis · MinIO · Docker
+**Highlights:** Secure multi-format ingestion · asynchronous extraction · reading progress, highlights, bookmarks, and notes · Vietnamese/English localization · hybrid PostgreSQL/pgvector retrieval with reranking · grounded no-answer behavior · RAG evaluation · health checks, safe logs, rate limits, and deployment automation.
 
-> OCR, semantic retrieval, RAG, and LLM-provider integration are planned milestones—not completed features.
+**Stack:** Next.js · React · TypeScript · FastAPI · PostgreSQL/pgvector · Redis · Dramatiq · MinIO · Docker
+
+> Milestones 7–8 are implemented and validated locally. The project has not been deployed to staging or production; OCR, multi-document chat, crawling, web search, autonomous agents, and PPTX remain outside the current scope.
 
 ## GitHub activity
 
